@@ -41,6 +41,46 @@
    </eMail>   
   </Osoba>
 
+  <Osoba>
+    <ime>
+      Jovan
+    </ime>
+    <prezime>
+      Jovanovic
+    </prezime>
+    <datumRodjenja>
+      <dan>
+        21
+      </dan>
+      <mesec>
+        06
+      </mesec>
+      <godina>
+        1990
+      </godina>
+    </datumRodjenja>
+    <adresa tip='privremena'>
+      <ulica>
+        Sutjeska
+      </ulica>
+      <broj>
+        324
+      </broj>
+      <grad>
+        Beograd
+      </grad>
+      <drzava>
+        Srbija
+      </drzava>
+    </adresa>
+    <brojTelefona tip='moblini'>
+      0654665467
+    </brojTelefona>
+    <eMail tip='sluzbeni'>
+      jjovanovic97@gmail.com
+    </eMail>
+  </Osoba>
+
   <Kompanija>
     <naziv>
       Speedy korporacija
