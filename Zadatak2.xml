@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "adresarDTD.dtd">
+<Adresar>
+  <Osoba>
+    <ime>
+      Aleksandar
+    </ime>
+    <prezime>
+      Dikic
+    </prezime>
+    <datumRodjenja>
+      <dan>
+        11
+      </dan>
+      <mesec>
+        04
+      </mesec>
+      <godina>
+        1997
+      </godina>
+   </datumRodjenja>
+   <adresa tip='privremena'>
+      <ulica>
+          Sutjeska
+      </ulica>
+      <broj>
+          324
+      </broj>
+      <grad>
+          Beograd
+      </grad>
+      <drzava>
+          Srbija
+      </drzava>      
+   </adresa>
+   <brojTelefona tip='moblini'>
+        0654622751
+   </brojTelefona>
+   <eMail tip='sluzbeni'>
+      aleksandardikic97@gmail.com
+   </eMail>   
+  </Osoba>
+
+  <Kompanija>
+    <naziv>
+      Speedy korporacija
+    </naziv>
+    <adresa>
+     <ulica>
+          Francuska
+     </ulica>
+     <broj>
+          13
+     </broj>
+     <grad>
+          Beograd
+     </grad>
+     <drzava>
+          Srbija
+     </drzava>      
+   </adresa>
+   <brojTelefona tip='fiksni'>
+        011/521532
+   </brojTelefona>
+   <eMail tip='sluzbeni'>
+      kompanija@speedy.com
+   </eMail>   
+  </Kompanija>
+  
+</Adresar>
