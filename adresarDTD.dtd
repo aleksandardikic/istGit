@@ -1,6 +1,9 @@
 ﻿<!ELEMENT Adresar (Osoba+,Kompanija+)>
-  <!ELEMENT Osoba (ime,prezime+,datumRodjenja,adresa,brojTelefona,eMail+)>
+<!ELEMENT Osoba (punoIme,datumRodjenja,adresa,brojTelefona,eMail+)>
+    <!ATTLIST Osoba idOsoba ID #REQUIRED>
+    <!ELEMENT punoIme (ime,srednjeIme?,prezime+)>
     <!ELEMENT ime (#PCDATA)>
+    <!ELEMENT srednjeIme (#PCDATA)>
     <!ELEMENT prezime (#PCDATA)>
     <!ELEMENT datumRodjenja (dan,mesec,godina)>
       <!ELEMENT dan (#PCDATA)>
@@ -17,4 +20,5 @@
     <!ELEMENT eMail (#PCDATA)>
       <!ATTLIST eMail tipEmail (privatni|sluzbeni) #REQUIRED>
 <!ELEMENT Kompanija (naziv,adresa,brojTelefona,eMail+)>
+  <!ATTLIST Kompanija idKompanija ID #REQUIRED>
   <!ELEMENT naziv (#PCDATA)>
