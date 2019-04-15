@@ -1,4 +1,5 @@
 ﻿<!ELEMENT Adresar (Osoba+,Kompanija+)>
+
 <!ELEMENT Osoba (punoIme,datumRodjenja,adresa,brojTelefona,eMail+)>
     <!ATTLIST Osoba idOsoba ID #REQUIRED>
     <!ELEMENT punoIme (ime,srednjeIme?,prezime+)>
