@@ -2,10 +2,12 @@
  <!-- <?xml-stylesheet href="xslFajl.xslt"?>-->
   <!DOCTYPE Adresar SYSTEM "adresarDTD.dtd">
 
-  <Adresar>
-    <Osoba>
+  <Adresar
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Osoba idOsoba="o1">
      <punoIme>
       <ime>Aleksandar</ime>
+      <srednjeIme>Slavko</srednjeIme>
       <prezime>Dikic</prezime>
       </punoIme> 
       <datumRodjenja>
@@ -14,26 +16,18 @@
         <godina>1997</godina>
      </datumRodjenja>
      <adresa tipAdrese='privremena'>
-        <ulica>Su</ulica>
-        <broj>3454</broj>
-        <grad>Beo</grad>
+        <ulica>Sutjeska</ulica>
+        <broj>324</broj>
+        <grad>Beograd</grad>
         <drzava>Srbija</drzava>      
      </adresa>
-     <brojTelefona tipTelefona='moblini'>
-          0654647131
-     </brojTelefona>
-     <eMail tipEmail='sluzbeni'>
-        aleks1@gmail.com
-     </eMail>
-      <eMail tipEmail='sluzbeni'>
-        aleks2@gmail.com
-      </eMail>
-      <eMail tipEmail='sluzbeni'>
-        aleks3@gmail.com
-      </eMail>
+     <brojTelefona tipTelefona='moblini'>0654647131</brojTelefona>
+     <eMail tipEmail='sluzbeni'>aleks1@gmail.com</eMail>
+      <eMail tipEmail='sluzbeni'>aleks2@gmail.com</eMail>
+      <eMail tipEmail='sluzbeni'>aleks3@gmail.com</eMail>
     </Osoba>
 
-    <Osoba>
+    <Osoba idOsoba='o2'>
       <punoIme>
         <ime>Marko</ime>
         <prezime>Markovic</prezime>
@@ -56,9 +50,33 @@
         asalic97@gmail.com
       </eMail>
     </Osoba>
+
+    <Osoba idOsoba='o3'>
+      <punoIme>
+        <ime>Pera</ime>
+        <prezime>Peric</prezime>
+      </punoIme>
+      <datumRodjenja>
+        <dan>20</dan>
+        <mesec>3</mesec>
+        <godina>2009</godina>
+      </datumRodjenja>
+      <adresa>
+        <ulica>Susag</ulica>
+        <broj>21</broj>
+        <grad>Beograd</grad>
+        <drzava>Srbija</drzava>
+      </adresa>
+      <brojTelefona tipTelefona='moblini'>
+        0654647131
+      </brojTelefona>
+      <eMail tipEmail='sluzbeni'>
+        asalic97@gmail.com
+      </eMail>
+    </Osoba>
     
     
-    <Kompanija>
+    <Kompanija idKompanija='k1'>
       <naziv>Speedy korporacija</naziv>
       <adresa tipAdrese='stalna'>
        <ulica>Francuska</ulica>
@@ -72,7 +90,7 @@
 
    
 
-    <Kompanija>
+    <Kompanija idKompanija='k2'>
       <naziv>Speedy korporacija druga</naziv>
       <adresa>
         <ulica>Makedonska</ulica>
@@ -80,18 +98,24 @@
         <grad>Beograd</grad>
         <drzava>Srbija</drzava>
       </adresa>
-      <brojTelefona tipTelefona='fiksni'>
-        011/521321
-      </brojTelefona>
-      <eMail tipEmail='sluzbeni'>
-        kompanija@speedy.com
-      </eMail>
-      <eMail tipEmail='sluzbeni'>
-        kompanija@speedy.com
-      </eMail>
-      <eMail tipEmail='sluzbeni'>
-        kompanija@speedy.com
-      </eMail>
+      <brojTelefona tipTelefona='fiksni'>011/521321</brojTelefona>
+      <eMail tipEmail='sluzbeni'>kompanija@speedy.com</eMail>
+      <eMail tipEmail='sluzbeni'>kompanija@speedy.com</eMail>
+      <eMail tipEmail='sluzbeni'>kompanija@speedy.com</eMail>
+    </Kompanija>
+
+    <Kompanija idKompanija='k3'>
+      <naziv>Kompanija 3</naziv>
+      <adresa>
+        <ulica>Ulica</ulica>
+        <broj>5443</broj>
+        <grad>Beograd</grad>
+        <drzava>Srbija</drzava>
+      </adresa>
+      <brojTelefona tipTelefona='fiksni'>011/521321</brojTelefona>
+      <eMail tipEmail='sluzbeni'>kompanija1@mail.com</eMail>
+      <eMail tipEmail='sluzbeni'>kompanija2@speedy.com</eMail>
+      <eMail tipEmail='sluzbeni'>kompanija3@speedy.com</eMail>
     </Kompanija>
     
   </Adresar>
